@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.19 19.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #161515;
+        font-family: HalyardDisplay-Light, 'Halyard Display';
+        font-size: 17.18px;
+        font-variation-settings: 'wght' 200;
+        font-weight: 300;
+        stroke: #161515;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-1" transform="translate(.38 14.67)"><tspan class="cls-3" x="0" y="0">B</tspan><tspan class="cls-2" x="9.59" y="0">A</tspan><tspan x="19.16" y="0">CK</tspan></text>
+  </g>
+</svg>
