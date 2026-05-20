@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: halyard-display, sans-serif;
     padding-top: 90px;
+    height: 100%;
 }
 
 h1{
@@ -19,6 +20,66 @@ h4{
     font-weight: 500;
     font-style: italic;
     line-height: 1.1;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-body{
+    display: flex;
+    flex: 1;
+    padding: 0;
+    align-items: stretch
+}
+
+.sidebar {
+    width: 300px;
+    background: #ACE4AA;
+    padding: 20px;
+    flex-shrink: 0;
+    min-height: 100vh;
+}
+
+.sidebar h5 {
+    margin-bottom: 30px;
+}
+
+.sidebar h6{
+    margin-bottom: 10px;
+    margin: 0px 20px;
+}
+
+.sidebar label {
+    display: block;
+    margin: 0px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.u-sidebar{
+    margin: 0px 20px;
+}
+
+.sidebar input {
+    margin-right: 8px;
+}
+
+.section{
+    margin-bottom: 30px;
+}
+
+.main {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.main img,
+.main .carousel-item {
+    max-width: 100%;
 }
 
 .spacing{
@@ -176,6 +237,10 @@ h4{
     margin: 0;
 }
 
+.product-section {
+    margin-bottom: 30px;
+}
+
 footer a:hover {
     color: #aaa !important;
 }
@@ -186,6 +251,7 @@ footer {
 
 .footer{
     padding: 25px;
+    margin-top: 0;
     background-color: #231F20;
 }
 .footer-logo img{
